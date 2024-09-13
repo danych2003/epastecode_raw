@@ -1,13 +1,15 @@
-package ee.epastecode.epastecode;
+package ee.epastecode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
+
 @SpringBootApplication
-public class EpastecodeApplication {
+public class EPasteCodeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EpastecodeApplication.class, args);
+		SpringApplication.run(EPasteCodeApplication.class, args);
 	}
 
 }
